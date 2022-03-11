@@ -5,14 +5,16 @@
 }
 
 .navbar{
-
+    font-family: sans-serif;
     margin: auto;
     padding-left: 20px;
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
 }
 .logo{
+     
     margin: auto;
 }
 .navbar ul li a{
@@ -23,7 +25,7 @@
 .navbar ul li{
    
     list-style: none;
-    display: inline-block;
+   /* display: inline-block;*/
     
 }
 content{
@@ -35,10 +37,15 @@ content{
     font-size:20px;
     text-align: left;
     margin: 30px;*/
-    margin-left: 400px;
+    margin:auto;
+   position: relative;
+    display: inline-block;
+   
 }
 
 .image{
+    width: 50%;
+    height: 70vh;
     float: right;
 }
 
@@ -47,10 +54,15 @@ content{
     
     margin: auto;
    /* padding-left: 400px; */
-   position: relative;
-    display: flex; 
+    width: 85%;
+    display: flex;
+   
+    align-content: center;
+   
+}
+.content1{
     
-   justify-content: space-between;
+    width: 50%;
 }
 
 
@@ -62,44 +74,61 @@ content{
 
 
 .headings{
+    font-family: sans-serif;
+    font-size: large;
     margin: auto;
    padding-top: 30px;
     text-align: center;
     display:grid;
     grid-row-gap: 20px;
-    
-    grid-template-columns: auto auto auto;
+     grid-template-columns: auto auto auto;
+    width: 80%;
     }
+.h1{
+    font-family: sans-serif; 
+}
 
 .button{
+    
    background-color: red;
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
     display: inline-block;
-    margin-left: 110px;
+    color: white;
+    font-size: inherit;
     position: relative;
-    padding: 10px 16px;
+    padding: 12px 24px;
 }
 .button1{
-
+    border-radius: 8px;
     border-color: skyblue;
     color: skyblue;
     background-color: white;
-    
+    padding: 12px 24px;
 }
 ul li{
     display: inline-block;
     padding: 15px;
-   
-    
-}
+   }
 .para{
-    padding-left: 110px;
+    font-family: sans-serif;
+}
+.para1{
+    font-family: sans-serif;
+    font-size: large;
 }
 
-}
 .icon{
     text-align: center;
    
+}
+.footer1{
+    clear: both;
+     position:relative;
+   bottom:0;
+   width:100%;
+   height:5vh;   /* Height of the footer */
+  font-family: sans-serif;
+    
 }
