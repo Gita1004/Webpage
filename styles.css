@@ -1,10 +1,11 @@
 *{
-    margin: 0;
+   
+    margin: auto;
     padding: 0;
 }
 
 .navbar{
-    width: 85%;
+
     margin: auto;
     padding-left: 20px;
     display: flex;
@@ -12,62 +13,80 @@
     justify-content: space-between;
 }
 .logo{
-    padding-left: 50px;
+    margin: auto;
 }
 .navbar ul li a{
     
     text-decoration: none;
-    color: blue;
+    
 }
 .navbar ul li{
-    
+   
     list-style: none;
     display: inline-block;
     
 }
-.content{
-    padding-left: 500px;
+content{
+   /* padding-left: 500px;
     padding-top: 10px;
-    width: 100%;
+   
     position:absolute;
     top: 20%;
     font-size:20px;
     text-align: left;
-    margin: 30px;
-   
-  
-    
+    margin: 30px;*/
+    margin-left: 400px;
 }
-.head1{
-    padding-left: 100px;
-}
-.image{
-    display: inline-block;
-    
- 
-    float: right;
 
+.image{
+    float: right;
 }
+
+
+.contentimage{
+    
+    margin: auto;
+   /* padding-left: 400px; */
+   position: relative;
+    display: flex; 
+    
+   justify-content: space-between;
+}
+
+
+.head1{
+    
+    text-align: center;
+   /* padding-left: 100px;*/
+}
+
+
 .headings{
+    margin: auto;
    padding-top: 30px;
     text-align: center;
-    width: 100%;
-    
     display:grid;
-    grid-row-gap: 35px;
-    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
     
-}
+    grid-template-columns: auto auto auto;
+    }
+
 .button{
-    background-color: red;
-    color: white;
-      padding: 15px 32px;
-    margin-left: 120px;
+   background-color: red;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 110px;
+    position: relative;
+    padding: 10px 16px;
 }
 .button1{
-    background-color: green;
-    color: white;
-    padding: 10px;
+
+    border-color: skyblue;
+    color: skyblue;
+    background-color: white;
+    
 }
 ul li{
     display: inline-block;
@@ -81,5 +100,6 @@ ul li{
 
 }
 .icon{
+    text-align: center;
    
 }
